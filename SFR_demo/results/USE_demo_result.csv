@@ -1,0 +1,2 @@
+,F_predict,F_true,G_predict,G_true,R_Close_01,R_Close_001,R_Close_0001,R_R2,P_Close_01,P_Close_001,P_Close_0001,P_R2
+0,-1.74399999292807*x_i_0,-1.744*x_i_0,x_i_0*(x_i_0 + x_j_0),x_i_0*(x_i_0 + x_j_0),1.0,1.0,1.0,0.9999999999999978,1.0,1.0,1.0,1.0

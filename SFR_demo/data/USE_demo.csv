@@ -1,0 +1,27 @@
+F_ske_infix,G_ske_infix,dim,F_length,F_operatorNum,G_length,G_operatorNum
+CONSTANT * x_i_0,x_i_0 * (x_i_0 + x_j_0),1,3,1,5,2
+x_i_0 + CONSTANT * x_i_1,CONSTANT * x_j_1 + x_i_0 * x_j_1,2,5,2,7,3
+3 * x_i_0,x_i_0 + CONSTANT * (x_i_0)**2 * (x_j_1)**-2,2,3,1,11,5
+CONSTANT * sin(x_i_0) + CONSTANT * x_i_0 * x_i_1,x_j_1 + CONSTANT * x_i_1 + CONSTANT * x_i_0,2,10,5,9,4
+CONSTANT * (x_i_1)**2 + CONSTANT * x_i_0 + CONSTANT * x_i_1,x_j_0 + arctan(x_j_0 * (x_i_1)**2),2,13,6,8,4
+CONSTANT * x_i_0,x_j_1 + x_i_0 * cos(CONSTANT * x_i_0),2,3,1,8,4
+x_i_0 + x_i_1 + (x_i_0)**2,2 * x_j_0 + CONSTANT * x_i_0,2,7,3,7,3
+CONSTANT * x_i_1 + CONSTANT * x_i_0 + CONSTANT * x_i_1 * (x_i_0)**-1,CONSTANT * x_j_0 + x_j_0 * x_j_1 * (x_i_0 + CONSTANT * x_j_1 * (x_j_0)**2),2,15,7,17,8
+x_i_1 + 2 * x_i_0,x_j_0 * (x_i_0 + CONSTANT * x_i_1),2,5,2,7,3
+x_i_1 + (x_i_1)**-1 + CONSTANT * x_i_0 + CONSTANT * (x_i_0)**2,CONSTANT * x_i_1 + CONSTANT * (x_i_0)**2 + x_i_1 * (CONSTANT + CONSTANT * x_i_1)**-1 + CONSTANT * x_i_0 * x_j_0,2,15,7,25,12
+x_i_0 + CONSTANT * x_i_1 + CONSTANT * (x_i_0)**2,x_i_0 + x_i_1 + x_j_0 + CONSTANT * (1 + CONSTANT * x_i_1)**2,2,11,5,15,7
+CONSTANT * x_i_0,CONSTANT * (x_j_1)**-1 + CONSTANT * x_i_0,2,3,1,9,4
+x_i_1 + (CONSTANT + x_i_1)**-1,x_i_0 + x_j_1,2,7,3,3,1
+x_i_0 + x_i_1 + CONSTANT * (x_i_1)**-1,(CONSTANT * x_j_1 + CONSTANT * x_j_0) * cos(CONSTANT + x_i_1),2,9,4,12,6
+x_i_0 * (x_i_1 + CONSTANT * x_i_1 * (x_i_1 + CONSTANT * x_i_0)),x_i_1 + CONSTANT * exp(x_j_1 + CONSTANT * x_i_0) + CONSTANT * (CONSTANT + x_j_1)**2 + CONSTANT * x_j_1,2,13,6,22,11
+x_i_1 + CONSTANT * x_i_2,x_i_0 * x_j_0,3,5,2,3,1
+CONSTANT * x_i_0,x_i_0 * (x_i_0 + x_j_0),1,3,1,5,2
+CONSTANT * x_i_2,x_i_2 + x_j_0,3,3,1,3,1
+CONSTANT * x_i_0,CONSTANT * x_i_0 * x_j_0,1,3,1,5,2
+CONSTANT * (CONSTANT + -1 * x_i_0)**2 * (CONSTANT * x_i_0 + arctan(x_i_0 + (x_i_0)**2)),CONSTANT * x_j_0 + CONSTANT * x_j_0 * (x_i_0)**2 * (CONSTANT * x_j_0 + CONSTANT * x_i_0),1,20,10,19,9
+(x_i_0 + CONSTANT * sin(x_i_1 + CONSTANT * x_i_2)) * (x_i_1 + (x_i_0)**-1 * (x_i_1)**-1),x_j_1 * (x_i_0 + (CONSTANT + CONSTANT * x_i_0)**-1 + 2 * x_j_0 + CONSTANT * x_i_1),3,20,10,19,9
+(x_i_0)**2 * (CONSTANT * (x_i_1)**2 + CONSTANT * exp(CONSTANT * x_i_1) + CONSTANT * x_i_1),((x_i_0)**2 + CONSTANT * (x_i_0)**2 * (x_i_1)**2) * arcsin(x_j_0),2,20,10,16,8
+x_i_0 + CONSTANT * (x_i_0)**2 + CONSTANT * (x_i_0)**-1 + CONSTANT * x_i_1,x_j_1 + CONSTANT * (x_i_2)**-1 + CONSTANT * x_i_2 + x_j_0 * cos(x_j_2),3,17,8,16,8
+x_i_1 + CONSTANT * x_i_1 * (x_i_0 + x_i_1 + (CONSTANT + CONSTANT * x_i_1)**-1),x_i_2 + (CONSTANT * x_i_0 + CONSTANT * (CONSTANT + x_i_1)**-1)**-1 + CONSTANT * x_j_1,3,17,8,19,9
+x_i_1 + x_i_2 + arctan(x_i_1),x_j_1 * (x_i_0 + CONSTANT * (x_i_2)**2),3,6,3,9,4
+x_i_1 + CONSTANT * x_i_1 * (x_i_0)**2,x_j_1 + x_j_2 + (x_i_0)**-1,3,9,4,7,3

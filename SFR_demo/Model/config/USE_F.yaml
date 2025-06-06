@@ -1,0 +1,46 @@
+metadata_path: SFR/data/
+testdata_path: USE_F_demo
+max_dimension: 3
+max_int: 10
+
+model_path: SFR/data/model_SFR.ckpt
+
+ieee754: 32
+#data_embedding
+bit32: True #IEEE 754 bit
+norm: True #IEEE 754 normalization
+dim_hidden: 512 #hidden dimension
+mean: 0.5
+std: 0.5
+num_inds: 50
+num_ISABs: 3
+num_heads: 8
+num_outputs: 20
+num_SABs: 2
+ln: True
+
+#decoder
+dec_pf_dim: 512
+num_dec_layers: 6
+
+#mask
+trg_pad_idx: 0
+#token_embedding
+length_eq: 50
+output_dim: 50
+
+#dropout
+dropout: 0
+lr: 0.0001
+
+
+beam_size: 10
+
+sample_state: 200
+sample_time: 200
+sample_node: 1
+n_point: 200
+
+Out_Domain_point: 1000
+
+Draw: True
