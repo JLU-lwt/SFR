@@ -70,7 +70,7 @@ d. A visualized result **Figure_0.png** will also be saved in the **results/** i
 You can get more information about SFR from our paper https://arxiv.org/abs/2505.21879.
 
 ## V. Further reproduction
-More complete code and testing experiments (including inferring the transmission laws of epidemics) will be published on GitHub. We recommend downloading the project from https://github.com/JLU-lwt/SFR for easier training and testing
+The complete code will be open sourced for use as soon as possible.
 
 
 
