@@ -1,0 +1,44 @@
+seed: 1
+
+min_dimension: 1
+max_dimension: 3
+
+min_binary_ops_per_dim: 1
+max_binary_ops_per_dim: 5
+
+min_unary_ops_per_dim: 0
+max_unary_ops_per_dim: 3
+
+operators_to_use: "inv:3,pow2:2,sin:0.1,cos:0.1,exp:0.5,tan:0.1,arcsin:0.1,arccos:0.1,arctan:0.1,log:0.1,pow3:0.1,add:3,sub:3,mul:1,div:1"
+operators_to_not_repeat: "sin,cos,tan,arcsin,arccos,arctan,exp,log"
+
+prob_const: 0.0
+prob_prefactor: 0.6
+prob_rand: 0.0
+prob_t: 0.0
+prob_unaries: 1
+
+max_unary_depth: 4
+max_int: 6
+
+reduce_num_constants: True
+max_prefactor: 20
+max_exponent: 40
+use_sympy: True
+expand: False
+simplify: False
+
+
+topo_max_nodes: 200
+topo_type_list: [ "grid","random","power_law","small_world","community" ]
+n_points: 200
+
+#multi-process
+num_file_per_core: 1
+num_skeleton_per_file: 10
+
+#No multi-process
+num_skeletons: 100
+
+
+random_label: 1
